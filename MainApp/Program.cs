@@ -15,6 +15,11 @@ namespace MainApp
 
             Task2.Task2 t2 = new Task2.Task2();
             t2.Execute();
+
+            Task3.Task3 t3 = new Task3.Task3();
+            t3.Execute();
+
+            Console.ReadLine();
         }
     }
 }
